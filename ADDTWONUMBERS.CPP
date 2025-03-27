@@ -3,7 +3,7 @@
 #include<iostream.h>
 #include<conio.h>
 #include<math.h>
-
+#include<string.h>
 //Node defination
 struct Node{
 	int data;
@@ -13,8 +13,8 @@ struct Node{
 
 //insert at any point in Linked List as per given by the user
 void insertAtAnyPoint(Node **create, int x,int pos){
-	//allocation of newnode in heap
-	Node *temp = new Node();
+	//allocation of newnode in head
+	//Node *temp = new Node();
 	temp->data = x;
 	temp->next = NULL;
 	
